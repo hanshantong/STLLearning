@@ -37,8 +37,8 @@ int main(int argc,char** argv)
 
     /*#define three dimension array*/
     vector<vector<vector<float>>> data(5,vector<vector<float>>(4,vector<float>(3,1.0f)));
-    //above definition is equal to:
 
+    //above definition is equal to:
     vector<float> v1(3,2.0f);
     vector<vector<float>> v2(4,v1);
     vector<vector<vector<float>>> v3(5,v2);
